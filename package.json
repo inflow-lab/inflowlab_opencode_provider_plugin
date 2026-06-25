@@ -1,0 +1,21 @@
+{
+  "name": "inflowlab_opencode_provider_plugin",
+  "version": "0.1.0",
+  "description": "Inflowlab provider plugin for opencode.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "scripts": {},
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "inflowlab"
+  ],
+  "license": "MIT"
+}
