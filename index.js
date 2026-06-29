@@ -142,25 +142,6 @@ const providers = [
       },
     },
   },
-  {
-    id: "inflowlab-mimo",
-    name: "Inflowlab MiMo",
-    npm: "@ai-sdk/openai-compatible",
-    models: {
-      "mimo-v2.5-pro": {
-        name: "MiMo V2.5 Pro",
-        limit: { context: 1_000_000, output: 128_000 },
-        reasoning: true,
-        modalities: { input: ["text"], output: ["text"] },
-      },
-      "mimo-v2.5": {
-        name: "MiMo V2.5",
-        limit: { context: 1_000_000, output: 128_000 },
-        reasoning: true,
-        modalities: { input: ["text", "image", "audio", "video"], output: ["text"] },
-      },
-    },
-  },
 ]
 
 function mergeConfigProvider(cfg, provider) {
@@ -205,4 +186,3 @@ export const InflowlabGPT = defineProviderPlugin(providers[0])
 export const InflowlabDeepSeek = defineProviderPlugin(providers[1])
 export const InflowlabQwen = defineProviderPlugin(providers[2])
 export const InflowlabGLM = defineProviderPlugin(providers[3])
-export const InflowlabMiMo = defineProviderPlugin(providers[4])

@@ -8,7 +8,6 @@
 - `inflowlab-deepseek`
 - `inflowlab-qwen`
 - `inflowlab-glm`
-- `inflowlab-mimo`
 
 ## 使用方式
 
@@ -47,5 +46,4 @@ inflowlab-gpt/gpt-5.5
 inflowlab-deepseek/deepseek-v4-pro
 inflowlab-qwen/qwen3.7-plus
 inflowlab-glm/glm-5.2
-inflowlab-mimo/mimo-v2.5
 ```
